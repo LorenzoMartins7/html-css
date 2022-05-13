@@ -1,0 +1,45 @@
+body{
+    background-image: url(os-dez-mandamentos-de-Deus-quais-sao-os-10-mandamentos.jpg);
+}
+h1{
+    background: rgba(100, 89, 89, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px;
+    border-color: rgba(119, 114, 114, 0.877);
+    height: 0px;
+            width: 0px;
+            border-width: 1px;
+            border-style: solid;
+             padding-left: 1px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            padding-bottom: 1px;
+            background-color:rgba(136, 131, 131, 0.877); ;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+.especial{
+    background-color: cyan;
+}
+section#Assunto{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);}
+p{
+    text-align: center;
+}

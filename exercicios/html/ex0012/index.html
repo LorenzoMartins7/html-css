@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamimicas</h1>
+    <p>tente abrir imagens dinamicas no seu navegador</p>
+
+<picture>
+    <source media="(max-width: 700px)" srcset="Sem título.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/grande.png" alt="imagem flexivel">
+    <h1>reproduzindo audios</h1>
+    <p>aprendendo a reprodir audio em HTM5</p>
+    <p>
+        <audio src="midia/messcall.mp3" controls autoplay></audio>
+        <audio>
+            <source src="midia/messcall.mp3" type="audio/mpeg">
+            
+        </audio>
+    </p>
+</picture>
+</body>
+</html>
