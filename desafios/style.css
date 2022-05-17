@@ -4,6 +4,15 @@
     font-weight: normal;
     font-style: normal;
 }
+/* variaves em css: */
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83elad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #la5c37;
+    --cor5: #063dle;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #4ddb699f;
@@ -14,13 +23,17 @@ h1{
     
     
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 div{
     text-align: center;
 }
 .primeiro{
     font-family: 'idroid', sans-serif, helvetica;
     color: #317940;
-}
+}1
 .segundo{
     font-family: 'idroid', sans-serif, helvetica;
     color: #147d31;
@@ -55,7 +68,7 @@ section{
     width: 1000px; 
     text-align: center;
     border: 0px;
-    margin-left: 200px;
+    
 }
 
 h5{
