@@ -33,7 +33,7 @@ div{
 .primeiro{
     font-family: 'idroid', sans-serif, helvetica;
     color: #317940;
-}1
+}
 .segundo{
     font-family: 'idroid', sans-serif, helvetica;
     color: #147d31;
@@ -68,7 +68,13 @@ section{
     width: 1000px; 
     text-align: center;
     border: 0px;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
     
+}
+section > img{
+    width: 100%;
 }
 
 h5{
